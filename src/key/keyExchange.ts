@@ -3,7 +3,7 @@ import { toArray, toHex } from "../utility";
 /**
  * @hidden
  */
-const nacl = require("tweetnacl");
+const nacl = require("@dreamoslib/tweetnacl");
 
 export type X25519Public = string;
 export type X25519Private = string;

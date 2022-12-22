@@ -1,5 +1,5 @@
 import * as _ from "lodash";
-import nacl = require("tweetnacl");
+import nacl = require("@dreamoslib/tweetnacl");
 import { toArray, toHex } from "../utility";
 
 export type Ed25519Signature = string;
